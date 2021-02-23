@@ -13,7 +13,8 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+		<sonar.sources>src/main/mule</sonar.sources>
+		<sonar.tests/>
 		<app.runtime>4.3.0</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
@@ -49,6 +50,11 @@
             <version>1.2.0</version>
             <classifier>mule-plugin</classifier>
         </dependency>
+        <dependency>
+			 <groupId>org.sonarsource.scanner.maven</groupId>
+			 <artifactId>sonar-maven-plugin</artifactId>
+			 <version>3.6.1.1688</version>
+		</dependency>
 	</dependencies>
 
 	<repositories>
