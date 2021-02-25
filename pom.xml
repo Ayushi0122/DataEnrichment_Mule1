@@ -152,8 +152,8 @@
     </pluginRepositories>
     <distributionManagement>
     	<snapshotRepository>
-      	<id>mulerelease</id>
-      	<name>mulerelease</name>
+      	<id>MuleProdCode</id>
+      	<name>MuleProdCode</name>
       	<url>http://localhost:9090/repository/MuleProdCode/</url>
     	</snapshotRepository>
  	</distributionManagement>
